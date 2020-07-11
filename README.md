@@ -2,7 +2,7 @@
 ## Description
 A trivial snake done in C++ using Cheerp to compile into javascript to run it on your browser.
 
-It is ugly but for my defense I made this project to test Cheerp and I never made anything in html. (Except 10 years ago when I was in middle school so it does not really count)
+It is ugly (both the output and the C++ code) but for my defense I made this project to test Cheerp during an afternoon and I never made anything in html. (Except 10 years ago when I was in middle school so it does not really count)
 
 ## How to compile
 Run `/opt/cheerp/bin/clang++ -std=c++1z -target cheerp -O2 main.cpp -o main.js`
@@ -19,3 +19,4 @@ Open the file main.html with favorite browser (Firefox of course) like that.
 ## Todo
 * Add image to the readme
 * Host it on my raspberry pi on my domain to make it playable everywhere
+* Add a way to configure the speed
