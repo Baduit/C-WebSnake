@@ -33,7 +33,6 @@ class [[cheerp::genericjs]] Graphics
 			_canvas = static_cast<client::HTMLCanvasElement*>(client::document.getElementById("snake_canvas"));
 			_canvas->set_width(_width);
 			_canvas->set_height(_height);
-			client::document.get_body()->appendChild(_canvas);
 			_canvas_ctx = static_cast<client::CanvasRenderingContext2D*>(_canvas->getContext("2d"));
 
 			client::requestAnimationFrame(cheerp::Callback([&](){ handle_refresh(); }));
