@@ -16,7 +16,8 @@ But if you can't or don't want to there is already the output file (main.js) in 
 Open the file main.html with favorite browser (Firefox of course) like that.
 `firefox main.html`
 
+But it is also hosted on my raspberry pi and availble online here: https://www.baduit.eu/snake/main.html. (If the link does not work it probably means I am experimenting stuff on my pi)
+
 ## Todo
 * Add image to the readme
-* Host it on my raspberry pi on my domain to make it playable everywhere
 * Add a way to configure the speed
